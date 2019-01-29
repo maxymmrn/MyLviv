@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".solved">
+
+    <LinearLayout
+        style="@style/LayoutInLayoutInTop">
+
+        <ImageView
+            android:id="@+id/back_from_menu"
+            style="@style/Arrow" />
+
+        <LinearLayout
+            style="@style/LayoutInTop">
+
+            <TextView
+                style="@style/Title"
+                android:text="Вирішені проблеми" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/horse_icon_from_menu"
+            style="@style/SmallIcon"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:src="@drawable/baseline_announcement_black_18dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Розбитий ліхтар"
+                android:textSize="32dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="парк Івана Франка"
+                android:textSize="32dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:src="@drawable/baseline_announcement_black_18dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Розбитий ліхтар"
+                android:textSize="32dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="парк Івана Франка"
+                android:textSize="32dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:src="@drawable/baseline_announcement_black_18dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Розбитий ліхтар"
+                android:textSize="32dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="парк Івана Франка"
+                android:textSize="32dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:src="@drawable/baseline_announcement_black_18dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Розбитий ліхтар"
+                android:textSize="32dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="парк Івана Франка"
+                android:textSize="32dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

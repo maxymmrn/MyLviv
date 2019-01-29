@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context=".complain_status">
+
+    <LinearLayout
+        style="@style/LayoutInLayoutInTop">
+
+        <ImageView
+            android:id="@+id/back_from_menu"
+            style="@style/Arrow" />
+
+        <LinearLayout
+            style="@style/LayoutInTop">
+
+            <TextView
+                style="@style/Title"
+                android:text="Розбитий ліхтар" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/horse_icon_from_menu"
+            style="@style/SmallIcon"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="480dp"
+        android:layout_height="320dp"
+        android:src="@drawable/lihtar" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Адреса:"
+                android:textSize="24sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" парк Франка"
+                android:textSize="24sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Статус:"
+                android:textSize="24sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Вирішується"
+                android:textSize="24sp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:text="Відповідальна установа:  ПП 'Світло'" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:text="Опис:  Ліхтар розбитий вже протягом 4 днів.\nА отже й не світить стільки ж.\nЗремонтуйте його будь ласка."/>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

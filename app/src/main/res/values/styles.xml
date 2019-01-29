@@ -1,7 +1,7 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
@@ -16,5 +16,51 @@
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="SmallIcon" parent="Base.Theme.AppCompat.Light">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginRight">6dp</item>
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:src">@drawable/man</item>
+    </style>
+
+    <style name="Arrow" parent="Base.Theme.AppCompat.Light">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:src">@drawable/arrow</item>
+    </style>
+
+    <style name="LayoutInTop" parent="Base.Theme.AppCompat.Light">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">9</item>
+
+    </style>
+
+    <style name="LayoutInLayoutInTop" parent="Base.Theme.AppCompat.Light">
+        <item name="android:layout_height">65dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:descendantFocusability">beforeDescendants</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:weightSum">10</item>
+
+    </style>
+
+    <style name="Title" parent="Base.Theme.AppCompat.Light">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+
+    </style>
 
 </resources>
