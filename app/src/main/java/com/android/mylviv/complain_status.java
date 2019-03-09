@@ -23,12 +23,12 @@ public class complain_status extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_complain_status);
 
-        title = (TextView) findViewById(R.id.complain_status_title);
-        image = (ImageView) findViewById(R.id.complain_status_image);
-        address = (TextView) findViewById(R.id.complain_status_address);
-        status = (TextView) findViewById(R.id.complain_status_progress_status);
-        company = (TextView) findViewById(R.id.complain_status_responsible_company);
-        description = (TextView) findViewById(R.id.complain_status_description);
+        title = (TextView) findViewById(R.id.complaint_status_title);
+        image = (ImageView) findViewById(R.id.complaint_status_image);
+        address = (TextView) findViewById(R.id.complaint_status_address);
+        status = (TextView) findViewById(R.id.complaint_status_progress_status);
+        company = (TextView) findViewById(R.id.complaint_status_responsible_company);
+        description = (TextView) findViewById(R.id.complaint_status_description);
 
         currentComplaint = new Complaint(ComplaintType.LIGHT, "парк Франка",
                 Status.IN_PROGRESS, R.drawable.lihtar, "ПП \"Світло\"",

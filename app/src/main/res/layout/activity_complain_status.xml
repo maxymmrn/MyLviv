@@ -12,7 +12,7 @@
         style="@style/LayoutInLayoutInTop">
 
         <ImageView
-            android:id="@+id/complain_status_back_from_menu"
+            android:id="@+id/complaint_status_back_from_menu"
             style="@style/Arrow" />
 
         <LinearLayout
@@ -20,18 +20,18 @@
 
             <TextView
                 style="@style/Title"
-                android:id="@+id/complain_status_title" />
+                android:id="@+id/complaint_status_title" />
 
         </LinearLayout>
 
         <ImageView
-            android:id="@+id/complain_status_avatar"
+            android:id="@+id/complaint_status_avatar"
             style="@style/SmallIcon"/>
 
     </LinearLayout>
 
     <ImageView
-        android:id="@+id/complain_status_image"
+        android:id="@+id/complaint_status_image"
         android:layout_width="480dp"
         android:layout_height="320dp" />
 
@@ -54,7 +54,7 @@
                 android:textSize="24sp"/>
 
             <TextView
-                android:id="@+id/complain_status_address"
+                android:id="@+id/complaint_status_address"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="24sp"/>
@@ -74,7 +74,7 @@
                 android:textSize="24sp"/>
 
             <TextView
-                android:id="@+id/complain_status_progress_status"
+                android:id="@+id/complaint_status_progress_status"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="24sp"/>
@@ -94,7 +94,7 @@
                 android:text="Відповідальна установа: " />
 
             <TextView
-                android:id="@+id/complain_status_responsible_company"
+                android:id="@+id/complaint_status_responsible_company"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="20sp" />
@@ -114,7 +114,7 @@
                 android:text="Опис: "/>
 
             <TextView
-                android:id="@+id/complain_status_description"
+                android:id="@+id/complaint_status_description"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="22sp"/>
