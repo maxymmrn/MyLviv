@@ -10,7 +10,7 @@ public class Complaint {
     private String description;
 
     public Complaint(ComplaintType type, String address, Status status, int pictureId,
-                     String company,String description) {
+                     String company, String description) {
         this.type = type;
         this.address = address;
         this.status = status;

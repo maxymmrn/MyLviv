@@ -16,7 +16,7 @@ public class complain_status extends AppCompatActivity {
     TextView status;
     TextView company;
     TextView description;
-    Complaint complaint;
+    Complaint currentComplaint;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,16 +30,16 @@ public class complain_status extends AppCompatActivity {
         company = (TextView) findViewById(R.id.complain_status_responsible_company);
         description = (TextView) findViewById(R.id.complain_status_description);
 
-        complaint = new Complaint(ComplaintType.LIGHT, "парк Франка",
+        currentComplaint = new Complaint(ComplaintType.LIGHT, "парк Франка",
                 Status.IN_PROGRESS, R.drawable.lihtar, "ПП \"Світло\"",
                 "Ліхтар розбитий вже протягом 4 днів.\n" +
                         "А отже й не світить стільки ж.\n" +
                         "Зремонтуйте його будь ласка.");
 
-        displayInfo();
+        displayInfo(currentComplaint);
     }
 
-    private void displayInfo(){
+    private void displayInfo(Complaint complaint){
         title.setText(complaint.getType().toString());
         image.setImageResource(complaint.getPictureId());
         address.setText(complaint.getAddress());
